@@ -27,7 +27,7 @@ export default host => {
     });
     host.nav.prepend({
         when: '#.page != "default"',
-        content: 'text:"Default view"',
+        content: 'text:"Default View"',
         onClick() {
             host.setPage('default');
             history.replaceState(null, null, ' '); // ????

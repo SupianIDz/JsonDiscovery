@@ -12,6 +12,19 @@
     transition: none;
 }
 
+* {
+    font-family: "Iosevka Nerd Font Mono", monospace !important;
+}
+
+.view-struct > * {
+    font-size: 14px !important;
+}
+
+.discovery-root {
+    --discovery-fmt-property-color: #CA3838;
+    --discovery-fmt-string-color: #059669;
+}
+
 /*
  * Navigation bar
  */
@@ -27,11 +40,13 @@
     margin-bottom: 0;
     padding-top: 6px;
 }
+
 .view-page-header__content {
     display: flex;
     flex-wrap: wrap;
     gap: 6px 8px;
 }
+
 .view-page-header .view-button {
     margin: 0;
     font-size: 12px;
@@ -39,15 +54,18 @@
     padding: 6px 8px;
     user-select: none;
 }
+
 .view-page-header .view-button.collapse-all {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
+
 .view-page-header .view-button.expand-all {
     margin-left: -1px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+
 .view-page-header .view-button.collapse-all:empty::after,
 .view-page-header .view-button.expand-all:empty::after {
     content: '';
@@ -60,9 +78,11 @@
     background-color: currentColor;
     visibility: visible;
 }
+
 .view-page-header .view-button.expand-all:empty::after {
     mask-image: url('./img/expand-all.svg');
 }
+
 .view-page-header .view-button.expand-all:empty::after {
     mask-image: url('./img/expand-all.svg');
 }
@@ -84,6 +104,7 @@
 .view-expand > .header > .trigger {
     position: relative;
 }
+
 .view-expand > .header > .trigger::before {
     position: absolute;
     width: 12px;
@@ -93,7 +114,9 @@
     transform-origin: 0 0;
     transform: rotate(-90deg) translate(-50%, -50%);
 }
+
 .view-expand.expanded > .header > .trigger::before {
     transform: rotate(0deg) translate(-50%, -50%);
 }
+
 /* Safari quirk mode fix */
