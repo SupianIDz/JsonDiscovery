@@ -1,6 +1,6 @@
 export const copyToClipboardButton = {
     view: 'button',
-    text: 'Copy to clipboard',
+    text: 'Copy',
     async onClick(_, __, host) {
         await host.actions.copyToClipboard();
         host.actions.flashMessage('JSON copied to clipboard');
@@ -18,5 +18,5 @@ export const saveAsFileButton = {
     view: 'button',
     when: '#.actions.saveAsFile',
     onClick: '="saveAsFile".actionHandler()',
-    text: 'Save as file...'
+    text: 'Save'
 };

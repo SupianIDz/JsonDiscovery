@@ -14,7 +14,23 @@
 
 * {
     font-family: "Iosevka Nerd Font Mono", monospace !important;
+    border-color: #94a3b8 !important;
 }
+
+.struct-action-button {
+    color: #000 !important;
+}
+
+.page-default:has(>.view-struct) {
+    background-color: #fff !important;
+}
+
+.view-table {
+    border: #94a3b8 1px solid !important;
+    border-collapse: collapse;
+}
+
+
 
 .view-struct > * {
     font-size: 14px !important;

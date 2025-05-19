@@ -117,12 +117,6 @@ export function initAppDiscovery() {
                         host.scheduleRender();
                     }
                 });
-                host.nav.primary.append({
-                    name: 'github',
-                    text: '',
-                    href: 'https://github.com/discoveryjs/JsonDiscovery',
-                    external: true
-                });
             }
         ]
     });

@@ -79,15 +79,6 @@ export default host => {
         }
     });
 
-    //
-    // Secondary section
-    //
-    host.nav.primary.append({
-        name: 'github',
-        href: 'https://github.com/discoveryjs/JsonDiscovery',
-        external: true
-    });
-
     // host.nav.primary.append({
     //     content: 'text:"\u00D7"',
     //     tooltip: { position: 'trigger', content: 'text:"Close JsonDiscovery"' },

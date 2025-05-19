@@ -1,7 +1,7 @@
 {
     "version": null,
-    "name": "JsonDiscovery",
-    "short_name": "JsonDiscovery",
+    "name": "JSON",
+    "short_name": "JSON",
     "description": "Browser extension that changes the way you're viewing JSON",
     "author": "exdis",
     "manifest_version": 3,
